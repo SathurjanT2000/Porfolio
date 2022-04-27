@@ -110,8 +110,8 @@ main {
     grid-template: 4rem minmax(20rem, auto) minmax(10rem, auto) / 3fr 1fr;
     grid-template-areas: 
         "title title"
-        "info pic"
-        "quote pic";
+        "info info"
+        "quote info";
     grid-gap: 2% 1%;
     margin-bottom: 2%;
 }
@@ -193,8 +193,8 @@ main {
         grid-template: 4rem minmax(20rem, auto) minmax(10rem, auto) / 10rem;
         grid-template-areas: 
             "title title"
-            "pic info"
-            "pic quote";
+            "info info"
+            "info quote";
         grid-gap: 1rem 2rem;
     }
 
@@ -218,8 +218,8 @@ main {
         grid-template: 4rem 13rem minmax(12rem, auto) minmax(30rem, auto) / 1fr;
         grid-template-areas: 
             "title"
-            "pic"
             "quote"
+            "info"
             "info";
         grid-gap: 0;
     }
