@@ -187,10 +187,6 @@ main {
     align-self: center;
     justify-self: center;
 }
-#me {
-    max-height: 30rem;
-    max-width: 24rem;
-}
 
 @media only screen and (max-width: 930px) {
     #about-me {
@@ -210,11 +206,6 @@ main {
         padding: 0;
         border: 0;
         align-self: flex-start;
-    }
-    #me {
-        padding: 1%;
-        border-radius: 50%;
-        width: 10rem;
     }
 }
 @media only screen and (max-width: 660px) {
