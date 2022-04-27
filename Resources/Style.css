@@ -111,7 +111,7 @@ main {
     grid-template-areas: 
         "title title"
         "info info"
-        "quote info";
+        "quote quote";
     grid-gap: 2% 1%;
     margin-bottom: 2%;
 }
@@ -194,7 +194,7 @@ main {
         grid-template-areas: 
             "title title"
             "info info"
-            "info quote";
+            "quote quote";
         grid-gap: 1rem 2rem;
     }
 
